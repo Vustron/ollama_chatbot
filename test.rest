@@ -1,0 +1,16 @@
+# #POST
+# POST http://127.0.0.1:8000/api/v1/ml 
+# content-type: application/json
+
+# {
+#   "location": "Anibongan"
+# }
+
+
+#GET
+GET http://127.0.0.1:8000/api/v2/hello-world 
+content-type: application/json
+
+# {
+#   "location": "Anibongan"
+# }
