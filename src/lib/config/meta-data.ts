@@ -15,7 +15,10 @@ export const getBaseUrl = () => {
 export const siteConfig: SiteConfig = {
   meta: {
     metadataBase: new URL(getBaseUrl()),
-    title: "Nextjs Template",
+    title: {
+      template: "%s | Nextjs Template",
+      default: "Nextjs Template",
+    },
     applicationName: "Nextjs Template",
     description: "A template made by Vustron",
     openGraph: { images: ["/og"] },

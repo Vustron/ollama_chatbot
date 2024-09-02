@@ -8,7 +8,7 @@
     "useDefineForClassFields": true,
     "lib": ["esnext", "dom", "dom.iterable"],
     "skipDefaultLibCheck": true,
-
+    "typeRoots": ["./node_modules/@types", "./types"],
     "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
     "resolveJsonModule": true,
@@ -45,7 +45,9 @@
     "**/*.tsx",
     "**/*.cjs",
     "**/*.js",
-    ".next/types/**/*.ts"
+    ".next/types/**/*.ts",
+    "./src",
+    "tailwindcss-modules.d.ts"
   ],
 
   "exclude": ["node_modules"]
